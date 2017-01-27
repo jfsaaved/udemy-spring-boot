@@ -1,4 +1,6 @@
-pageController:
-  msg: "Hello Wordl from Properties"
-  foo: "foo"
-  bar: "bar"
+myconfig:
+  app-name: Name
+  app-description: ${myconfig.app-name} is a Spring Boot App
+  admin-first-name: Julian
+  admin-last-name: Saavedra
+  adminEmail: julian.felipe.saavedra@gmail.com
