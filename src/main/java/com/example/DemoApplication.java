@@ -9,7 +9,6 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(DemoApplication.class, args);
-		MyAppConfig config = (MyAppConfig) ctx.getBean("myAppConfig");
-		System.out.println(config.toString());
+		System.out.println(ctx.getBean("datasource".toString()));
 	}
 }
